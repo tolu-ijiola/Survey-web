@@ -1,0 +1,71 @@
+.showcase-text .download-btn {
+    font-size: 12px;
+    border-radius: 20px;
+    border: 2px solid #F6AE2D;
+    padding: 12px;
+}
+
+.contact {
+    color: white;
+}
+
+.contact-tab{
+    padding: 32px;
+    margin: 12px auto;
+    max-width: 700px;
+}
+
+.split-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.split-input > div{
+    width: 48%;
+}
+
+.contact-form{
+    margin-top: 8vh;
+}
+
+.contact-form label{
+    font-size: 13px;
+    color: gainsboro;
+}
+
+.contact-form input , .contact-form textarea{
+    display: block;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background-color: #212121;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    border:  2px solid #F6AE2D;
+}
+
+.contact-form button{
+    margin-top: 15vh;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F6AE2D;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .split-input {
+        display: block;
+        margin-bottom: 12px;
+    }
+    
+    .split-input > div{
+        width: 100%;
+        margin-bottom: 12px ;
+    }
+}
